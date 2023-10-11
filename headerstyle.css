@@ -1,0 +1,88 @@
+header{
+    background-color: rgba(210, 194, 243, 0.9);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: fit-content;
+    z-index: 0.8;
+    backdrop-filter: blur(1);
+    
+    border-bottom: 1px solid rgba(150, 56, 153, 0.591);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.Lock {
+    width: 150px;
+    height: 150px;
+    mix-blend-mode: multiply;
+}
+
+.arrow {
+    width: 30px;
+    height: 30px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    list-style: none;
+    color: antiquewhite;
+}
+.topics {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    list-style: none;
+    color: antiquewhite;
+}
+
+.topics li {
+    padding: 10px;
+    background-color: rgb(123, 124, 126);
+    border: 1px solid rgb(79, 43, 70);
+    transition: 0.3s ease;
+    width: 120px;
+    height: 35px;
+    
+}
+
+.topics li:hover {
+    transform: scale(1.1);
+
+}
+
+a {
+    color: currentColor;
+    text-decoration: none;
+}
+
+.search-container {
+    display: inline;
+    justify-content: flex-end;
+    margin: 20px;
+}
+
+#search {
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#search-button {
+    background-color: #0074d9;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#search-button:hover {
+    background-color: #0056b3;
+}

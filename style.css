@@ -1,0 +1,118 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(231, 223, 203);
+}
+
+.index {
+
+    background-image: url(./IMG/CSbackgroundbig.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 180px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.intro {
+    padding: 30px 30px;
+    color: aliceblue;  
+}
+
+h1 {
+    padding-top: 180px;
+    text-align: center;
+}
+
+.video-container {
+    display: flex;
+    
+    justify-content: flex-end;
+    padding-bottom: 180px;
+    padding-right: 40px;
+}
+
+.video h1 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: aliceblue;
+    padding-right: 40px;
+}
+
+.cissp-container {
+    margin-top: 180px;
+    background-color: rgb(250, 188, 113);
+    border-radius: 20px;
+    color: rgb(62, 1, 1);
+    border: 1px solid salmon;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.main-history {
+    margin-top: 180px;
+    background-color: rgb(250, 188, 113);
+    border-radius: 20px;
+    padding: 30px;
+    color: rgb(62, 1, 1);
+    border: 1px solid salmon;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.hackers {
+    margin-top: 80px;
+    background-color: rgb(250, 188, 113);
+    border-radius: 20px;
+    padding: 20px;
+    color: rgb(62, 1, 1);
+    border: 1px solid salmon;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.type {
+    margin-top: 20px;
+    background-color: rgb(250, 188, 113);
+    border-radius: 20px;
+    padding: 20px;
+    color: rgb(62, 1, 1);
+    border: 1px solid salmon;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.hacks {
+    padding-top: 50px;
+    display: grid;
+    margin: auto;
+   justify-content: center;
+   align-items: center;
+}
+
+.hacks p {
+    height: 300px;
+    width: 150px;
+}
+
+.video {
+    background-image: url(./IMG/0101010101.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 140px;
+}
+
+.history {
+    background-image: url(./IMG/History_\(2021\).jpg.png);
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 200px;
+}
+
+.intro-cissp {
+    display: block;
+    text-align: center;
+
+}
